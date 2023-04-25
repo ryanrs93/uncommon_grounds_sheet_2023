@@ -65,7 +65,7 @@ FLASK_APP="web_app"
 # for google analytics (optional):
 # GA_TRACKER_ID="G-____________"
 
-# for google login:
+# for google login: (test)
 GOOGLE_CLIENT_ID="___________"
 GOOGLE_CLIENT_SECRET="___________"
 
