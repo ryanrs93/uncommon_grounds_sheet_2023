@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>My App</title>
+</head>
+<body>
+
+  <!-- SITE NAVIGATION -->
+  <div class="container">
+    <nav>
+      <h1><a href="/">My App</a></h1>
+      <ul>
+          <li><a href="/about">About</a></li>
+          <li><a href="/hello">Hello</a></li>
+          <li><a href="/products">Products</a></li>
+          <li><a href="/login">Login</a></li>
+      </ul>
+    </nav>
+    <hr>
+
+    <!-- PAGE CONTENTS -->
+    <div id="content">
+      {% block content %}
+      {% endblock %}
+    </div>
+
+    <!-- FOOTER -->
+    <footer style="margin-top:2em; margin-bottom:2em;">
+        <hr>
+        <div class="row">
+            <div class="col-sm-6" style="display: inline; margin-bottom: 5px;">
+                <p class="small">
+                    &copy; Copyright 2023 [Your Name Here]
+                </p>
+                <p class="small">
+                    Made with the <a href="https://github.com/prof-rossetti/flask-sheets-starter-2023">Flask Sheets Starter Template</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+  </div>
+
+</body>
+</html>

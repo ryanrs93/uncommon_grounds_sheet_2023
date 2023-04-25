@@ -1,0 +1,23 @@
+
+
+# reading environment vars:
+python-dotenv
+
+# web application:
+Flask==2.2.3
+
+# auth (login with google via oauth):
+Authlib==1.2.0
+requests # Authlib needs this (see https://github.com/lepture/authlib/issues/365)
+
+# database (google sheets):
+gspread==5.8.0
+
+# for collecting and running tests:
+#pytest
+
+# for parsing the contents of visited pages:
+#beautifulsoup4
+
+# for running the app on a production server:
+gunicorn
