@@ -1,12 +1,12 @@
 
 DEFAULT_PRODUCTS = [
     # see: https://picsum.photos/images
-    {'id': 1, 'name': 'Strawberries', 'description': 'Juicy organic strawberries.', 'price': 4.99, 'url': 'https://picsum.photos/id/1080/360/200'},
-    {'id': 2, 'name': 'Cup of Tea', 'description': 'An individually-prepared tea or coffee of choice.', 'price': 3.49, 'url': 'https://picsum.photos/id/225/360/200'},
-    {'id': 3, 'name': 'Textbook', 'description': 'It has all the answers.', 'price': 129.99, 'url': 'https://picsum.photos/id/24/360/200'},
-    {'id': 4, 'name': 'Online Course', 'description': 'Level up your programming skills.', 'price': 129.99, 'url': 'https://picsum.photos/id/180/360/200'},
-    {'id': 5, 'name': 'Ryans Advice', 'description': 'It is not that bad.', 'price': 0.99, 'url': 'https://picsum.photos/id/72/360/200'},
-    {'id': 6, 'name': 'Mocha', 'description': 'Best coffee in the school.', 'price': 4.99, 'url': 'https://raw.githubusercontent.com/ryanrs93/pics_uncommon_grounds/main/mocha.jpg'},
+    {'id': 1, 'name': 'Coffee', 'description': 'its a good coffee', 'price': 5.99, 'url': 'https://picsum.photos/id/1080/360/200'},
+    {'id': 2, 'name': 'Tea', 'description': 'its a good coffee', 'price': 4.49, 'url': 'https://picsum.photos/id/225/360/200'},
+    {'id': 3, 'name': 'Espresso', 'description': 'its a good coffee', 'price': 3.99, 'url': 'https://picsum.photos/id/24/360/200'},
+    {'id': 4, 'name': 'Latte', 'description': 'its a good coffee', 'price': 8.99, 'url': 'https://picsum.photos/id/180/360/200'},
+    {'id': 5, 'name': 'Cappuccino', 'description': 'its a good coffee', 'price': 3.99, 'url': 'https://picsum.photos/id/72/360/200'},
+    {'id': 6, 'name': 'Mocha', 'description': 'its a good coffee', 'price': 4.99, 'url': 'https://raw.githubusercontent.com/ryanrs93/pics_uncommon_grounds/main/mocha.jpg'},
 ]
 
 

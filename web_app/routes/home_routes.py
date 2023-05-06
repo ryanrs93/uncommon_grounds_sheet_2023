@@ -7,8 +7,26 @@ home_routes = Blueprint("home_routes", __name__)
 @home_routes.route("/home")
 def index():
     print("HOME...")
-    #return "Welcome Home"
+    #return "Welcome Home" 
     return render_template("home.html")
+
+@home_routes.route("/team")
+def team():
+    print("TEAM...")
+    #return "Team Members"
+    return render_template("team.html")
+
+@home_routes.route("/menu")
+def menu():
+    print("MENU...")
+    #return "Menu"
+    return render_template("menu.html")
+
+@home_routes.route("/contact")
+def contact():
+    print("CONTACT...")
+    #return "Contact Us"
+    return render_template("contact.html")
 
 @home_routes.route("/about")
 def about():
