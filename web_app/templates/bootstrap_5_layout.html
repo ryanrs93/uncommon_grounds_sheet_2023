@@ -15,6 +15,12 @@
     <!-- Bootstrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
 
+    <!-- Bootstrap CSS (template) -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,600,600i,700,700i|Satisfy|Comic+Neue:300,300i,400,400i,700,700i" rel="stylesheet">
+
     <!-- Google Analytics  -->
     <script async src="https://www.googletagmanager.com/gtag/js?id={{ config.GA_TRACKER_ID }}"></script>
     <script>
@@ -195,5 +201,6 @@
         //gtag("event", "debugging_info", debugInfo)
 
     </script>
+    
 </body>
 </html>
