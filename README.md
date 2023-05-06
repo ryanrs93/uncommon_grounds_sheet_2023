@@ -17,7 +17,7 @@ Make a copy of the template repository from GitHub, as necessary. Clone your cop
 Navigate to the local repository from the command line, for example if on the Desktop:
 
 ```sh
-cd ~/Desktop/flask-sheets-starter-2023
+cd ~/Documents/uncommon_grounds_sheet_2023
 ```
 
 > NOTE: it is important to navigate to the root directory before running many of the commands below.
