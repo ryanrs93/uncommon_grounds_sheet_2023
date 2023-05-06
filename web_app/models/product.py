@@ -6,7 +6,7 @@ DEFAULT_PRODUCTS = [
     {'id': 3, 'name': 'Textbook', 'description': 'It has all the answers.', 'price': 129.99, 'url': 'https://picsum.photos/id/24/360/200'},
     {'id': 4, 'name': 'Online Course', 'description': 'Level up your programming skills.', 'price': 129.99, 'url': 'https://picsum.photos/id/180/360/200'},
     {'id': 5, 'name': 'Ryans Advice', 'description': 'It is not that bad.', 'price': 0.99, 'url': 'https://picsum.photos/id/72/360/200'},
-    {'id': 6, 'name': 'Coffee', 'description': 'Best coffee in the school.', 'price': 4.99, 'url': '__________'},
+    {'id': 6, 'name': 'Mocha', 'description': 'Best coffee in the school.', 'price': 4.99, 'url': 'https://raw.githubusercontent.com/ryanrs93/pics_uncommon_grounds/main/mocha.jpg'},
 ]
 
 
