@@ -745,7 +745,7 @@ section {
 # About
 --------------------------------------------------------------*/
 .about {
-  background: url("../img/about-bg.jpg") center center;
+  background: url("https://raw.githubusercontent.com/ryanrs93/pics_uncommon_grounds/main/mocha.jpg") center center;
   background-size: cover;
   position: relative;
   padding: 80px 0;
@@ -753,7 +753,6 @@ section {
 
 .about:before {
   content: "";
-  background: rgba(0, 0, 0, 0.8);
   position: absolute;
   bottom: 0;
   top: 0;
