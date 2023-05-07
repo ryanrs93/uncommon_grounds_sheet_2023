@@ -16,8 +16,8 @@
             <div class="col-lg-12 d-flex justify-content-center">
               <ul id="menu-flters">
                 <li data-filter="*" class="filter-active">Classics</li>
-                <li data-filter=".filter-espresso">Espresso</li>
-                <li data-filter=".filter-specialty">Specialty</li>
+                <li data-filter=".filter-espresso"><a href="#espresso-menu">Espresso</a></li>
+                <li data-filter=".filter-specialty"><a href="#specialty-menu">Specialty</a></li>
               </ul>
             </div>
           </div>
@@ -96,7 +96,7 @@
               </div>
             </div>
     
-            <div class="col-lg-6 menu-item filter-active">
+            <div class="col-lg-6 menu-item filter-specialty">
               <img src="/static/assets/img/italian_soda.jpg" class="menu-img" alt="">
               <div class="menu-content">
                 <a href="#">Italian Soda</a><span>$3.50 - $4.00</span>
@@ -113,7 +113,7 @@
     </div>
 
     <!-- Espresso menu items -->
-    <h3 class="menu-divider">Espresso</h3>
+    <h3 class="menu-divider" id="espresso-menu">Espresso</h3>
             <div class="col-lg-6 menu-item filter-espresso">
               <img src="/static/assets/img/espresso.jpg" class="menu-img" alt="">
               <div class="menu-content">
@@ -195,8 +195,24 @@
             </div>
     
           </div>
-    
+
+       <!-- Divider -->
+       <div class="col-12">
+        <hr>
+      </div> 
+  <!-- Specialty menu items -->
+    <h3 class="menu-divider" id="specialty-menu">Specialty</h3>
+    <div class="col-lg-6 menu-item filter-specialty">
+      <img src="/static/assets/img/espresso.jpg" class="menu-img" alt="">
+      <div class="menu-content">
+        <a href="#">Smoothies</a><span>$5.99</span>
+      </div>
+      <div class="menu-ingredients">
+        Choose one : Lemonade  |  Mango   | Four Berry
+      </div>
+    </div>
         </div>
+
       </section><!-- End Menu Section -->
     
 {% endblock %}
