@@ -17,8 +17,14 @@
 
         .member img {
             width: 100%;
+            height: 300px; 
+            object-fit: cover; 
             transition: transform 0.3s;
         }
+       
+        .custom-cropping {
+    object-position: right center; /
+}
 
         .member:hover img {
             transform: scale(1.1);
@@ -85,7 +91,7 @@
 
             <div class="col-lg-3 col-md-6">
                 <div class="member">
-                    <img src="static/assets/img/ryan.jpg" alt="Ryan Silva">
+                    <img src="static/assets/img/ryan.jpg" alt="Ryan Silva" class="custom-cropping">
                     <div class="member-info">
                         <h4>Ryan Silva</h4>
                         <div class="social">
