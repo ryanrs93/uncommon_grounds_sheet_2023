@@ -3,121 +3,187 @@
 
 {% block content %}
 
-    <!-- ======= Menu Section ======= -->
-    <section id="menu" class="menu section-bg">
-        <div class="container" data-aos="fade-up">
-  
-          <div class="section-title">
-            <h2>Menu</h2>
-            <p>Check Our Menu</p>
-          </div>
-  
-          <div class="row" data-aos="fade-up" data-aos-delay="100">
-            <div class="col-lg-12 d-flex justify-content-center">
-              <ul id="menu-flters">
-                <li data-filter="*" class="filter-active">All</li>
-                <li data-filter=".filter-starters">Starters</li>
-                <li data-filter=".filter-salads">Salads</li>
-                <li data-filter=".filter-specialty">Specialty</li>
-              </ul>
-            </div>
-          </div>
-  
-          <div class="row menu-container" data-aos="fade-up" data-aos-delay="200">
-  
-            <div class="col-lg-6 menu-item filter-starters">
-              <img src="/static/assets/img/macchiato.jpeg" class="menu-img" alt="">
-              <div class="menu-content">
-                <a href="#">Coffee</a><span>$5.95</span>
-              </div>
-              <div class="menu-ingredients">
-                Lorem, deren, trataro, filede, nerada
-              </div>
-            </div>
-  
-            <div class="col-lg-6 menu-item filter-specialty">
-              <img src="assets/img/menu/bread-barrel.jpg" class="menu-img" alt="">
-              <div class="menu-content">
-                <a href="#">Bread</a><span>$6.95</span>
-              </div>
-              <div class="menu-ingredients">
-                Lorem, deren, trataro, filede, nerada
-              </div>
-            </div>
-  
-            <div class="col-lg-6 menu-item filter-starters">
-              <img src="assets/img/menu/cake.jpg" class="menu-img" alt="">
-              <div class="menu-content">
-                <a href="#">Crab Cake</a><span>$7.95</span>
-              </div>
-              <div class="menu-ingredients">
-                A delicate crab cake served on a toasted roll with lettuce and tartar sauce
-              </div>
-            </div>
-  
-            <div class="col-lg-6 menu-item filter-salads">
-              <img src="assets/img/menu/caesar.jpg" class="menu-img" alt="">
-              <div class="menu-content">
-                <a href="#">Caesar Selections</a><span>$8.95</span>
-              </div>
-              <div class="menu-ingredients">
-                Lorem, deren, trataro, filede, nerada
-              </div>
-            </div>
-  
-            <div class="col-lg-6 menu-item filter-specialty">
-              <img src="assets/img/menu/tuscan-grilled.jpg" class="menu-img" alt="">
-              <div class="menu-content">
-                <a href="#">Tuscan Grilled</a><span>$9.95</span>
-              </div>
-              <div class="menu-ingredients">
-                Grilled chicken with provolone, artichoke hearts, and roasted red pesto
-              </div>
-            </div>
-  
-            <div class="col-lg-6 menu-item filter-starters">
-              <img src="assets/img/menu/mozzarella.jpg" class="menu-img" alt="">
-              <div class="menu-content">
-                <a href="#">Mozzarella Stick</a><span>$4.95</span>
-              </div>
-              <div class="menu-ingredients">
-                Lorem, deren, trataro, filede, nerada
-              </div>
-            </div>
-  
-            <div class="col-lg-6 menu-item filter-salads">
-              <img src="assets/img/menu/greek-salad.jpg" class="menu-img" alt="">
-              <div class="menu-content">
-                <a href="#">Greek Salad</a><span>$9.95</span>
-              </div>
-              <div class="menu-ingredients">
-                Fresh spinach, crisp romaine, tomatoes, and Greek olives
-              </div>
-            </div>
-  
-            <div class="col-lg-6 menu-item filter-salads">
-              <img src="assets/img/menu/spinach-salad.jpg" class="menu-img" alt="">
-              <div class="menu-content">
-                <a href="#">Spinach Salad</a><span>$9.95</span>
-              </div>
-              <div class="menu-ingredients">
-                Fresh spinach with mushrooms, hard boiled egg, and warm bacon vinaigrette
-              </div>
-            </div>
-  
-            <div class="col-lg-6 menu-item filter-specialty">
-              <img src="assets/img/menu/lobster-roll.jpg" class="menu-img" alt="">
-              <div class="menu-content">
-                <a href="#">Lobster Roll</a><span>$12.95</span>
-              </div>
-              <div class="menu-ingredients">
-                Plump lobster meat, mayo and crisp lettuce on a toasted bulky roll
-              </div>
-            </div>
-  
-          </div>
-  
-        </div>
-      </section><!-- End Menu Section -->
+<!-- ======= Menu Section ======= -->
+<section id="menu" class="menu section-bg">
+    <div class="container" data-aos="fade-up">
 
-{% endblock %}
+        <div class="section-title">
+            <h2>Menu</h2>
+            <p>Check Our Tasty Menu</p>
+        </div>
+
+        <div class="row" data-aos="fade-up" data-aos-delay="100">
+            <div class="col-lg-12 d-flex justify-content-center">
+                <ul id="menu-flters">
+                    <li data-filter="*" class="filter-active">All</li>
+                    <li data-filter=".filter-classics">Classics</li>
+                    <li data-filter=".filter-espresso">Espresso</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row menu-container" data-aos="fade-up" data-aos-delay="200">
+
+            <!-- Classics -->
+            <div class="col-lg-6 menu-item filter-classics">
+                <div class="menu-content">
+                    <h4>Classics</h4>
+                </div>
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th scope="col"></th>
+                            <th scope="col">HOT</th>
+                            <th scope="col" colspan="2">Iced</th>
+                        </tr>
+                        <tr>
+                            <th scope="col">Item</th>
+                            <th scope="col">S</th>
+                            <th scope="col">M</th>
+                            <th scope="col">L</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Coffee</td>
+                            <td>2.55</td>
+                            <td>2.95</td>
+                            <td>3.25</td>
+                            <td>3.00</td>
+                            <td>3.50</td>
+                        </tr>
+                        <tr>
+                            <td>Tea</td>
+                            <td>2.55</td>
+                            <td>2.95</td>
+                            <td>3.15</td>
+                            <td>2.95</td>
+                            <td>3.45</td>
+                        </tr>
+                        <tr>
+                            <td>Half and Half</td>
+                            <td>3.60</td>
+                            <td>3.75</td>
+                            <td>4.15</td>
+                            <td>3.95</td>
+                            <td>4.50</td>
+                        </tr>
+                        <tr>
+                            <td>Hot Chocolate</td>
+                            <td>3.75</td>
+                            <td>3.95</td>
+                            <td>4.25</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Matcha Latte</td>
+                            <td>4.30</td>
+                            <td>4.80</td>
+                            <td>5.40</td>
+                            <td>5.10</td>
+                            <td>5.50</td>
+                        </tr>
+                        <tr>
+                            <td>Chai Latte</td>
+                            <td>4.05</td>
+                            <td>4.55</td>
+                            <td>5.15</td>
+                        </tr>
+                        <tr>
+                            <td>Cafe Au Lait</td>
+                            <td>3.10</td>
+                            <td>3.55</td>
+                            <td>4.00</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Steamer</td>
+                            <td>3.20</td>
+                            <td>3.45</td>
+                            <td>3.75</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Italian Soda</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>3.50</td>
+                            <td>4.00</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Espresso -->
+            <div class="col-lg-6 menu-item filter-espresso">
+                <div class="menu-content">
+                    <h4>Espresso</h4>
+                </div>
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th scope="col">Item</th>
+                            <th scope="col">S</th>
+                            <th scope="col">M</th>
+                            <th scope="col">L</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Espresso</td>
+                            <td>2.55</td>
+                            <td>2.95</td>
+                            <td>3.25</td>
+                        </tr>
+                        <tr>
+                            <td>Latte</td>
+                            <td>2.55</td>
+                            <td>2.95</td>
+                            <td>3.15</td>
+                        </tr>
+                        <tr>
+                            <td>Cappuccino</td>
+                            <td>3.60</td>
+                            <td>3.75</td>
+                            <td>4.15</td>
+                        </tr>
+                        <tr>
+                            <td>Red Eye</td>
+                            <td>3.75</td>
+                            <td>3.95</td>
+                            <td>4.25</td>
+                        </tr>
+                        <tr>
+                            <td>Americano</td>
+                            <td>4.30</td>
+                            <td>4.80</td>
+                            <td>5.40</td>
+                        </tr>
+                        <tr>
+                            <td>Macchiato</td>
+                            <td>4.05</td>
+                            <td>4.55</td>
+                            <td>5.15</td>
+                        </tr>
+                        <tr>
+                            <td>Mocha</td>
+                            <td>3.10</td>
+                            <td>3.55</td>
+                            <td>4.00</td>
+                        </tr>
+                        <tr>
+                            <td>Dirty Chai</td>
+                            <td>3.20</td>
+                            <td>3.45</td>
+                            <td>3.75</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+    </div>
